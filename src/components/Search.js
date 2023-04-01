@@ -11,7 +11,6 @@ const Search = ({ getPokemonData }) => {
         `https://pokeapi.co/api/v2/pokemon/${pokemon}`
       );
       getPokemonData(res.data);
-      console.log(res.data);
     } catch (err) {
       console.log(err);
     }
